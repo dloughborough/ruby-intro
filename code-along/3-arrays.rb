@@ -3,7 +3,7 @@
 # ruby 3-arrays.rb
 
 # Arrays are lists of things
-
+favorite_foods
 # Accessing the array
 
 # Add to the array

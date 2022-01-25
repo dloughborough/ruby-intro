@@ -12,6 +12,26 @@
 # "YOU WIN!", if they add up to 2, 3, or 12, write a message
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
+# sets the two dice rolling variables
+die_1 = rand(1..6)
+die_2 = rand(1..6)
+
+# calculates the total of the rolls variable
+total = die_1 + die_2
+
+# displays the numbers and the total
+puts die_1
+puts die_2
+puts "The total is: #{total}"
+
+# If statement to see if you win
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!"
+else
+    puts "THE POINT IS #{total}"
+end 
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
